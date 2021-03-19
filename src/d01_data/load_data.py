@@ -7,5 +7,7 @@ db_connect = ut.connect_to_mysql()
 
 # create a df from tsv
 df = pd.read_csv(conf.db_local_path, sep='\t', low_memory=False)
-df_to_clean = df.sample(n=10000)
+df_raw = df.sample(n=10000)
 
+df_name = "raw_data"
+ut.save_to_mysql(db_connect, df_raw, df_name)
