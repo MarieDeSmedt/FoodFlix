@@ -11,7 +11,7 @@ Il s'agit icic d'étudier la donnée, de sélectionner le sous ensemble qui va p
 
 open project in pycharm,
 run load_data.py,
-run first_cleaning.py
+
 
 cli: jupyter notebook
 
