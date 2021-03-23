@@ -6,6 +6,33 @@ En tant que développeur IA, vous avez été missionné afin de prouver que la d
 
 Il s'agit icic d'étudier la donnée, de sélectionner le sous ensemble qui va permettre de mettre en place la solution et de proposer un jeu de données de bonne qualité permettant de passer à l’implémentation du moteur de recommandation.
 
+## Content
+
+-> data
+
+    -> 01_raw (fichier contenant les données brut)
+    
+    -> 02_intermediate (fichier contenant les données travaillées)
+    
+    -> 03_processed (fichier contenant les données à envoyer en prod)
+
+-> notebook
+
+    -> Data_analyse.ipybn (notebook d'analyse des données)
+  
+    -> Data_clean.ipybn (notebook de nettoyage des données)
+  
+-> src
+
+    -> d00_utils (contient les méthodes utiles au projet)
+  
+    -> d01_data (contient les méthodes de travail des données)
+  
+    -> d02_intermediate (contient les méthodes de visualisation)
+
+- FOODFLIX.pptx (Présentation du projet)
+
+- requirements.txt (Contient les librairies et les versions utilisées)
 
 ## Getting Started
 
